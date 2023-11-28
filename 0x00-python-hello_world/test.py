@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 print(f"""\
-The Zen of Python, by Tim Peters
-
+The Zen of Python, by Tim Peters\n
 Beautiful is better than ugly.
 Explicit is better than implicit.
 Simple is better than complex.
