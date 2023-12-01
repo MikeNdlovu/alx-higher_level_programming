@@ -4,12 +4,12 @@ if __name__ == "__main__":
     import sys
     argc = len(sys.argv)
     operator = ["+", "-", "*", "/"]
-    a = int(sys.argv[1])
-    b = int(sys.argv[3])
     if (argc != 4):
         print("Usage: <a> <operator> <b>".format(sys.argv[0]))
         exit(1)
     else:
+        a = int(sys.argv[1])
+        b = int(sys.argv[3])
         if sys.argv[2] == operator[0]:
             print("{} {} {} = {}".format(a, operator[0], b, a + b))
         elif sys.argv[2] == operator[1]:
