@@ -8,5 +8,5 @@ def safe_print_division(a, b):
     finally:
         try:
             print("Inside result: {}".format(div))
-        except ZeroDivisionError:
+        except UnboundLocalError:
             print("Inside result: {}".format(None))
